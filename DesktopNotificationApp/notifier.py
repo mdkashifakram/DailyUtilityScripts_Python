@@ -19,7 +19,7 @@ def play_alarm():
         time.sleep(0.5)  # 0.5 seconds between beeps
 
 def timer(minutes):
-    seconds = minutes * 60
+    seconds = minutes * 15
     print(f"Timer set for {minutes} minutes.")
     notify("Timer Started", f"Timer set for {minutes} minutes.")
     time.sleep(seconds)
